@@ -1004,7 +1004,7 @@ static void goodix_ts_work_func(struct work_struct *work)
                         Point_4th.y = Point_output[3].y;
                         for (i = 0; i < 6; i++)
                         {
-                            printk("Point_output[%d].x = %d,Point_output[%d].y = %d\n", i, Point_output[i].x, i, Point_output[i].y);
+                            //printk("Point_output[%d].x = %d,Point_output[%d].y = %d\n", i, Point_output[i].x, i, Point_output[i].y);
                         }
 #else
                         Point_start.x = 0;
