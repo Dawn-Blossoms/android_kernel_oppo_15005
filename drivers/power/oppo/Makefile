@@ -1,3 +1,5 @@
+ccflags-$(CONFIG_OPPO_CHARGER)	+= -I$(src)
+
 obj-$(CONFIG_OPPO_CHARGER)	+= oppo_adc.o
 obj-$(CONFIG_OPPO_CHARGER)	+= oppo_battery.o
 obj-$(CONFIG_OPPO_CHARGER)	+= oppo_bms.o
