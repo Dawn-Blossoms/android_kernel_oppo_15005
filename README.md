@@ -1,8 +1,18 @@
-# R7-4.4-kernel-source
- Build:LNX.LA.3.7.3.c2-06500-8939.0-1
- 
-Project name is 15011(Chinese)/15061(General)
+### Kernel-Info
+Tag: `LNX.LA.3.7.3.c2-06500-8939.0-1`
+Version: `linux-3.10.28-Kitkat`
 
-use 15011 to compile dt.img 
+### How to build
+```bash
+$ export ARCH=arm
+$ export CROSS_COMPILE=/root/arm-eabi-4.7/bin/arm-eabi-
+$ make msm8916_15005_defconfig
+$ make -j6
+```
 
-path: kernel\arch\arm\boot\dts\15011  kernel\arch\arm64\boot\dts\15011
+### Output files
+* Kernel
+  * arch/arm/boot/zImage
+* Modules
+  * drivers/\*/\*/\*.ko
+
