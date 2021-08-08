@@ -14,7 +14,7 @@ $ make -j6
 * Kernel
   * `arch/arm/boot/zImage`
 * Modules
-  * `drivers/\*/\*/\*.ko`
+  * `drivers/*/*/*.ko`
 
 ### About dt.img
 Using the `'arch/arm/dts/msm8916-mtp-15005.dtb'` to compile it.
